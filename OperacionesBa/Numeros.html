@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones</title>
+</head>
+<body>
+    <script>
+        var valor1 = parseInt(prompt("Ingrese un número"));
+        var valor2 = parseInt(prompt("Ingrese un numero"));
+        var resultado=0;
+        
+        for (i=0; i<5; i++){
+        switch(i){
+        case 0:
+            resultado = valor1 + valor2;
+            alert ("El resultado de la suma es la siguiente " + resultado);
+        break;
+        case 1:
+            resultado = valor1 - valor2;
+            alert ("El resulktado de la resta es la siguiente " + resultado);
+            break;
+        case 2:
+            resultado = valor1 * valor2;
+            alert ("El resultado de la multiplicacion es la siguiente " + resultado);
+            break;
+        case 3:
+            resultado = valor1 / valor2;
+            alert ("El resultado de la division es la siguiente " + resultado);
+        break;
+        case 4:
+            resultado = valor1 % valor2;
+            alert ("El resultado del modulo es el siguiente " + resultado);
+        break;
+        }
+    }
+    </script>
+</body>
+</html>
